@@ -1,0 +1,65 @@
+# ===== Visual Studio / .NET =====
+.vs/
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm64/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# ===== Résultats de tests =====
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# ===== NuGet =====
+*.nupkg
+*.snupkg
+packages/
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+
+# ===== Publication =====
+publish/
+PublishScripts/
+*.pubxml
+*.publishproj
+
+# ===== Fichiers temporaires / logs =====
+*.log
+*.tmp
+*.cache
+*.bak
+*~
+
+# ===== Rider / VS Code =====
+.idea/
+.vscode/
+
+# ===== Windows / macOS =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ===== Secrets (ne jamais publier) =====
+.env
+*.env
+secrets.json
+appsettings.*.local.json
+cle-ia.dat
+
+# ===== Exports de test NOVA =====
+*.avi
+*.pptx
+*.pdf
